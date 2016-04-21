@@ -1,7 +1,7 @@
 <?php
 /**
  * File helper class
- * @package     eva\helpers\file
+ * @package     eva\helpers
  * @version     1.0
  * @license     http://mit-license.org/
  * @author      Tapakan https://github.com/Tapakan
