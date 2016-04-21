@@ -12,7 +12,7 @@
   },
   "autoload"   : {
     "psr-4": {
-      "eva\\helpers\\file\\": "src/"
+      "eva\\helpers\\": "src/"
     }
   }
 }
