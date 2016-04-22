@@ -20,7 +20,7 @@ class File
 {
     /**
      * Returns file extension.
-     * @param string $file Get file extension.
+     * @param string $file Path to the file.
      *
      * @return string
      */
