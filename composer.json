@@ -1,7 +1,7 @@
 {
   "name"       : "tapakan/file",
   "description": "File helper",
-  "type"       : "lib",
+  "type"       : "library",
   "license"    : "MIT",
   "require"    : {
     "php"        : ">=5.6"
@@ -12,7 +12,7 @@
   },
   "autoload"   : {
     "psr-4": {
-      "eva\\helpers\\": "src/"
+      "eva\\helpers\\": "src"
     }
   }
 }
