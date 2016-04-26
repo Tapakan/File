@@ -1,8 +1,21 @@
 {
   "name"       : "tapakan/file",
   "description": "File helper",
+  "version"    : "1.0",
   "type"       : "library",
+  "keywords"   : [
+    "Tapakan",
+    "File",
+    "File helper"
+  ],
   "license"    : "MIT",
+  "authors"    : [
+    {
+      "name" : "Alexander Oganov",
+      "email": "t_tapak@yahoo.com",
+      "role" : "Developer"
+    }
+  ],
   "require"    : {
     "php"        : ">=5.6"
   },
