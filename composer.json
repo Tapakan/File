@@ -4,9 +4,10 @@
   "version"    : "1.0.1",
   "type"       : "library",
   "keywords"   : [
-    "Tapakan",
     "File",
-    "File helper"
+    "check",
+    "save",
+    "helper"
   ],
   "license"    : "MIT",
   "authors"    : [
