@@ -1,7 +1,7 @@
 {
   "name"       : "tapakan/file",
   "description": "File helper",
-  "version"    : "1.0",
+  "version"    : "1.0.1",
   "type"       : "library",
   "keywords"   : [
     "Tapakan",
@@ -25,7 +25,7 @@
   },
   "autoload"   : {
     "psr-4": {
-      "eva\\helpers\\": "src"
+      "Tapakan\\File\\": "src"
     }
   }
 }
