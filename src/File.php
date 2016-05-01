@@ -2,13 +2,13 @@
 /**
  * File helper class
  * @package     eva\helpers
- * @version     1.0
+ * @version     1.0.1
  * @license     http://mit-license.org/
  * @author      Tapakan https://github.com/Tapakan
  * @coder       Alexander Oganov <t_tapak@yahoo.com>
  */
 
-namespace eva\helpers;
+namespace Tapakan\File;
 
 use SplFileInfo;
 
