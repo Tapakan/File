@@ -1,8 +1,8 @@
 <?php
 /**
  * File helper class
- * @package     eva\helpers
- * @version     1.0.1
+ * @package     Tapakan\File
+ * @version     1.0.2
  * @license     http://mit-license.org/
  * @author      Tapakan https://github.com/Tapakan
  * @coder       Alexander Oganov <t_tapak@yahoo.com>
@@ -14,12 +14,13 @@ use SplFileInfo;
 
 /**
  * Class File
- * @package eva\helpers
+ * @package Tapakan\File
  */
 class File
 {
     /**
      * Returns file extension.
+     *
      * @param string $file Path to the file.
      *
      * @return string
@@ -29,5 +30,17 @@ class File
         $spl = new SplFileInfo($file);
         
         return $spl->getExtension();
+    }
+
+    /**
+     * Wrapper for the standard file_exists function
+     *
+     * @param   string $file File path
+     *
+     * @return  boolean  True if path is a file
+     */
+    public static function exists($file)
+    {
+        return is_file($file);
     }
 }
